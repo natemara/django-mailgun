@@ -21,8 +21,8 @@ CLASSIFIERS = [
 ]
 
 setup(
-    name='django-mailgun',
-    version='0.2.2',
+    name='django-mailgun-provider',
+    version='0.2.3',
     packages=['django_mailgun'],
     author='Bradley Whittington',
     author_email='radbrad182@gmail.com',
@@ -33,6 +33,4 @@ setup(
     platforms=['any'],
     install_requires=['requests'],
     classifiers=CLASSIFIERS,
-    #TODO: get mailgun into pypi so it can be a requirement :)
 )
-
